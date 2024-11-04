@@ -1,36 +1,25 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 👋 Hi, I'm Keller Katlin
 
-## Getting Started
+### Systems Engineer | Web Developer
 
-First, run the development server:
+Welcome to my portfolio! I'm passionate about technology and innovation, with experience in software development, project management, and a strong focus on quality and continuous improvement.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 About Me
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 📍 Located in Peru.
+- 🌱 I am learning and diving deeper into commercialization strategies for innovative products, especially for Peruvian brands.
+- ✨ I am motivated by the opportunity to create impact through practical and effective technological solutions.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Skills
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Programming Languages**: JavaScript, TypeScript, Node.js
+- **Frameworks and Tools**: React, Node.js, Git, Next.js
+- **Soft Skills**: Communication, Teamwork, Problem-Solving, Adaptability, Leadership, Time Management, Critical Thinking, Emotional Intelligence
 
-## Learn More
+## 🌍 Connect With Me
 
-To learn more about Next.js, take a look at the following resources:
+- [LinkedIn](https://www.linkedin.com/in/keller-katlin-pinedo-tocas-144532272/)
+- [GitHub](https://github.com/kellerkatlin)
+- [Email](mailto:kellerkatlin.k@gmail.com)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Thank you for visiting my portfolio! I am always open to collaborations, new opportunities, and sharing knowledge. 😊
