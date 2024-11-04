@@ -18,8 +18,8 @@ Welcome to my portfolio! I'm passionate about technology and innovation, with ex
 
 ## 🌍 Connect With Me
 
-- [LinkedIn]([https://www.linkedin.com/in/your-username](https://www.linkedin.com/in/keller-katlin-pinedo-tocas-144532272/))
-- [GitHub](https://github.com/your-username)
+- [LinkedIn](https://www.linkedin.com/in/keller-katlin-pinedo-tocas-144532272/)
+- [GitHub](https://github.com/kellerkatlin)
 - [Email](mailto:kellerkatlin.k@gmail.com)
 
 Thank you for visiting my portfolio! I am always open to collaborations, new opportunities, and sharing knowledge. 😊
