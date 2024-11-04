@@ -27,14 +27,16 @@ export default function Home() {
                         </p>
                         {/* Button and socials */}
                         <div className="flex flex-col xl:flex-row items-center gap-4 xl:gap-8">
-                            <Button
-                                variant="outline"
-                                size="lg"
-                                className="uppercase flex items-center gap-2"
-                            >
-                                <span>Dowload CV</span>
-                                <Download size={20} />
-                            </Button>
+                            <a href="/cv.pdf" download>
+                                <Button
+                                    variant="outline"
+                                    size="lg"
+                                    className="uppercase flex items-center gap-2"
+                                >
+                                    <span>Dowload CV</span>
+                                    <Download size={20} />
+                                </Button>
+                            </a>
                             <div className="mb-1 xl:mb-0">
                                 <Socials
                                     containerSyles="flex gap-6"
