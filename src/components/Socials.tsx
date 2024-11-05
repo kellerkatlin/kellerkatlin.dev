@@ -38,6 +38,7 @@ export default function Socials({ containerSyles, iconStyles }: SocialsProps) {
                     target="_blank"
                     rel="noopener noreferrer"
                     passHref
+                    aria-label="social media"
                 >
                     {social.icon}
                 </Link>

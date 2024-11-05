@@ -31,6 +31,7 @@ export default function Home() {
                                 <Button
                                     variant="outline"
                                     size="lg"
+                                    aria-label="Download CV"
                                     className="uppercase flex items-center gap-2"
                                 >
                                     <span>Dowload CV</span>

@@ -17,10 +17,18 @@ export default function WorkSliderBtns({
 
     return (
         <div className={containerStyles}>
-            <button className={btnStyles} onClick={() => swiper.slidePrev()}>
+            <button
+                aria-label="left"
+                className={btnStyles}
+                onClick={() => swiper.slidePrev()}
+            >
                 <PiCaretLeftBold className={iconsStyles} />
             </button>
-            <button className={btnStyles} onClick={() => swiper.slideNext()}>
+            <button
+                aria-label="right"
+                className={btnStyles}
+                onClick={() => swiper.slideNext()}
+            >
                 <PiCaretRightBold className={iconsStyles} />
             </button>
         </div>

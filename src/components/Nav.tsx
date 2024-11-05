@@ -34,6 +34,7 @@ export default function Nav() {
                 <Link
                     key={link.path}
                     href={link.path}
+                    aria-label="navigation"
                     className={`${
                         link.path === pathname &&
                         "text-accent border-b-2 border-accent"

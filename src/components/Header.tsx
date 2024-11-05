@@ -20,8 +20,10 @@ export default function Header() {
                 <div className="hidden xl:flex items-center gap-8">
                     <Nav />
                     <Link href="/">
-                        <Button className="text-white dark:text-black">
-                            {" "}
+                        <Button
+                            className="text-white dark:text-black"
+                            aria-label="hire me"
+                        >
                             Hire me
                         </Button>
                     </Link>

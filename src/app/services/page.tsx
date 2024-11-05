@@ -67,6 +67,7 @@ export default function Services() {
                                 </div>
 
                                 <Link
+                                    aria-label="Learn more"
                                     href={service.href}
                                     className="w-[60px] h-[60px] rounded-full bg-white group-hover:bg-accent transition-all flex justify-center items-center hover:-rotate-45 "
                                 >

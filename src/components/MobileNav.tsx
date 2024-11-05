@@ -54,7 +54,7 @@ export default function MobileNav() {
                     <SheetTitle>
                         {/*Logo */}
                         <div className="mt-20 mb-20 text-center text-2xl ">
-                            <Link href="/">
+                            <Link href="/" aria-label="Keller">
                                 <h1 className="text-2xl dark:text-white text-black font-semibold">
                                     Keller{""}
                                     <span className="text-accent">.</span>
@@ -71,6 +71,7 @@ export default function MobileNav() {
                             <Link
                                 key={link.path}
                                 href={link.path}
+                                aria-label="Navigate to page"
                                 className={`text-xl capitalize hover:text-accent-hover transition-all ${
                                     link.path === pathname &&
                                     "text-accent border-b-2 border-accent"

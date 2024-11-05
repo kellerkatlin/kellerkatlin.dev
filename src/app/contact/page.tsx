@@ -104,7 +104,11 @@ export default function Contact() {
                                 placeholder="Type your message here."
                             />
                             {/* button */}
-                            <Button size="md" className="max-w-40">
+                            <Button
+                                size="md"
+                                className="max-w-40"
+                                aria-label="send message"
+                            >
                                 Send Message
                             </Button>
                         </form>

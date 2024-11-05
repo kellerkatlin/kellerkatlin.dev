@@ -173,13 +173,20 @@ export default function Work() {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     passHref
+                                    aria-label="live project"
                                 >
                                     <TooltipProvider delayDuration={100}>
                                         <Tooltip>
-                                            <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-black/5 dark:bg-white/5 flex justify-center items-center group">
-                                                <BsArrowUpRight className="text-black dark:text-white text-3xl group-hover:text-accent" />
+                                            <TooltipTrigger
+                                                aria-label="live"
+                                                className="w-[70px] h-[70px] rounded-full bg-black/5 dark:bg-white/5 flex justify-center items-center group"
+                                            >
+                                                <BsArrowUpRight
+                                                    aria-label="liveicon"
+                                                    className="text-black dark:text-white text-3xl group-hover:text-accent"
+                                                />
                                             </TooltipTrigger>
-                                            <TooltipContent>
+                                            <TooltipContent aria-label="live projects">
                                                 <p> Live Projects</p>
                                             </TooltipContent>
                                         </Tooltip>
@@ -191,13 +198,20 @@ export default function Work() {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     passHref
+                                    aria-label="github project"
                                 >
                                     <TooltipProvider delayDuration={100}>
                                         <Tooltip>
-                                            <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-black/5 dark:bg-white/5 flex justify-center items-center group">
-                                                <BsGithub className="text-black dark:text-white text-3xl group-hover:text-accent" />
+                                            <TooltipTrigger
+                                                aria-label="github"
+                                                className="w-[70px] h-[70px] rounded-full bg-black/5 dark:bg-white/5 flex justify-center items-center group"
+                                            >
+                                                <BsGithub
+                                                    aria-label="githubico"
+                                                    className="text-black dark:text-white text-3xl group-hover:text-accent"
+                                                />
                                             </TooltipTrigger>
-                                            <TooltipContent>
+                                            <TooltipContent aria-label="githubrepository">
                                                 <p> Github Repository</p>
                                             </TooltipContent>
                                         </Tooltip>
@@ -224,6 +238,7 @@ export default function Work() {
                                                 src={project.image}
                                                 alt={project.title}
                                                 fill
+                                                sizes="(min-width: 1024px) 50vw, 100vw"
                                                 className="object-cover"
                                             />
                                         </div>
