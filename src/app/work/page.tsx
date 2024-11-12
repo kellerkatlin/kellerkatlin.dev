@@ -112,7 +112,7 @@ const projects: Project[] = [
             },
         ],
         image: "/assets/work/project3.png",
-        live: "https://smteltarapotino",
+        live: "https://smteltarapotino.com",
         github: "https://github.com/kellerkatlin/smtel-frontend",
     },
 ];
