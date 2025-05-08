@@ -62,15 +62,15 @@ export default function Stats() {
       text: "Years of experience",
     },
     {
-      num: 10,
+      num: 13,
       text: "Projects completed",
     },
     {
-      num: 5,
+      num: 9,
       text: "Technologies mastered",
     },
     {
-      num: 380,
+      num: 585,
       text: "Code commits",
     },
   ];
