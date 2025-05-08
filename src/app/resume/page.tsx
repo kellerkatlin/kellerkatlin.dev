@@ -1,6 +1,13 @@
 "use client";
 
-import { FaHtml5, FaCss3, FaJs, FaReact, FaNodeJs } from "react-icons/fa";
+import {
+  FaHtml5,
+  FaCss3,
+  FaJs,
+  FaReact,
+  FaNodeJs,
+  FaAngular,
+} from "react-icons/fa";
 import { BiLogoTypescript } from "react-icons/bi";
 import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 // about data
@@ -155,6 +162,10 @@ const skills: Skill = {
     {
       icon: <FaReact />,
       name: "react",
+    },
+    {
+      icon: <FaAngular />,
+      name: "angular",
     },
     {
       icon: <SiNextdotjs />,
