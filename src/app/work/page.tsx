@@ -36,57 +36,33 @@ const projects: Project[] = [
   {
     num: "01",
     category: "frontend",
-    title: "GuitarLa",
+    title: "CV MATCHER",
     description:
-      "I created GuitarLa, a shopping cart app using React, TypeScript, and useReducer for state management. It supports adding, updating, and removing items, with persistence through LocalStorage.",
-
+      "I developed responsive interfaces using Angular, Angular Material, TailwindCSS, and TypeScript for an AI-powered CV-matching platform. I consumed APIs and contributed to UI/UX design to improve user experience and increase platform reach. The project was successfully launched to production, supporting early growth and product validation.",
     stack: [
       {
         name: "Html 5",
       },
       {
-        name: "Css 3",
+        name: "Scss",
       },
       {
         name: "TypeScript",
       },
       {
-        name: "React",
+        name: "Angular 17",
+      },
+      {
+        name: "Tailwind CSS",
       },
     ],
-    image: "/assets/work/project1.png",
-    live: "https://guitarla-ts-use-reducer-react-kellerkatlin.vercel.app",
-    github: "https://github.com/kellerkatlin/guitarla-ts-useReducer-react",
+    image: "/assets/work/project4.png",
+    live: "https://www.cvmatcher.app/",
+    github: "https://www.cvmatcher.app/",
   },
+
   {
     num: "02",
-    category: "frontend",
-    title: "Patient Follow-Up",
-    description:
-      "I created a patient follow-up app using React, TypeScript, and Zustand for state management. It supports adding, updating, and removing patients, with persistence through LocalStorage.",
-    stack: [
-      {
-        name: "Html 5",
-      },
-      {
-        name: "Css 3",
-      },
-      {
-        name: "TypeScript",
-      },
-      {
-        name: "React",
-      },
-      {
-        name: "Zustand",
-      },
-    ],
-    image: "/assets/work/project2.png",
-    live: "https://pacientes-zustand-kellerkatlin.vercel.app/",
-    github: "https://github.com/kellerkatlin/pacientes-zustand",
-  },
-  {
-    num: "03",
     category: "frontend",
     title: "SMT El Tarapotino",
     description:
@@ -116,31 +92,56 @@ const projects: Project[] = [
     github: "https://github.com/kellerkatlin/smtel-frontend",
   },
   {
-    num: "04",
+    num: "03",
     category: "frontend",
-    title: "CV MATCHER",
+    title: "Patient Follow-Up",
     description:
-      "I developed responsive interfaces using Angular, Angular Material, TailwindCSS, and TypeScript for an AI-powered CV-matching platform. I consumed APIs and contributed to UI/UX design to improve user experience and increase platform reach. The project was successfully launched to production, supporting early growth and product validation.",
+      "I created a patient follow-up app using React, TypeScript, and Zustand for state management. It supports adding, updating, and removing patients, with persistence through LocalStorage.",
     stack: [
       {
         name: "Html 5",
       },
       {
-        name: "Scss",
+        name: "Css 3",
       },
       {
         name: "TypeScript",
       },
       {
-        name: "Angular 17",
+        name: "React",
       },
       {
-        name: "Tailwind CSS",
+        name: "Zustand",
       },
     ],
-    image: "/assets/work/project4.png",
-    live: "https://www.cvmatcher.app/",
-    github: "https://www.cvmatcher.app/",
+    image: "/assets/work/project2.png",
+    live: "https://pacientes-zustand-kellerkatlin.vercel.app/",
+    github: "https://github.com/kellerkatlin/pacientes-zustand",
+  },
+  {
+    num: "04",
+    category: "frontend",
+    title: "GuitarLa",
+    description:
+      "I created GuitarLa, a shopping cart app using React, TypeScript, and useReducer for state management. It supports adding, updating, and removing items, with persistence through LocalStorage.",
+
+    stack: [
+      {
+        name: "Html 5",
+      },
+      {
+        name: "Css 3",
+      },
+      {
+        name: "TypeScript",
+      },
+      {
+        name: "React",
+      },
+    ],
+    image: "/assets/work/project1.png",
+    live: "https://guitarla-ts-use-reducer-react-kellerkatlin.vercel.app",
+    github: "https://github.com/kellerkatlin/guitarla-ts-useReducer-react",
   },
 ];
 
