@@ -13,17 +13,18 @@ export default function Home() {
                 <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-1 xl:pb-6">
                     {/* Text*/}
                     <div className="text-center xl:text-left order-2 xl:order-none">
-                        <span className="xl:text-xl ">Software Developer</span>
+                        <span className="xl:text-xl ">AI / Fullstack Engineer</span>
                         <h1 className="h2 xl:h1 mb-4 xl:mb-6">
                             Hello, I&apos;m <br />
                             <span className="text-accent">Keller Katlin</span>
                         </h1>
                         <p className="max-w-[635px] mb-6 xl:mb-9 dark:text-white/80 text-black/80">
-                            My passion is to create elegant digital experiences
-                            that capture the essence of ideas. With skills in a
-                            variety of technologies and programming languages, I
-                            always strive for excellence and innovation in every
-                            project.
+                            I build AI agents, conversational platforms and
+                            production-grade web products. Currently shipping
+                            LangGraph-based agents at Micelio while running my
+                            own e-commerce (P&amp;T Store) and digital
+                            product (Enfocalab). React, Next.js, Angular,
+                            Svelte, Node.js and Python.
                         </p>
                         {/* Button and socials */}
                         <div className="flex flex-col xl:flex-row items-center gap-4 xl:gap-8">

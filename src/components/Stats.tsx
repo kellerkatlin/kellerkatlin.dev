@@ -58,20 +58,20 @@ export default function Stats() {
 
   const stats: Stat[] = [
     {
-      num: 2,
+      num: 3,
       text: "Years of experience",
     },
     {
-      num: 13,
-      text: "Projects completed",
+      num: 15,
+      text: "Projects shipped",
     },
     {
-      num: 9,
+      num: 13,
       text: "Technologies mastered",
     },
     {
-      num: 585,
-      text: "Code commits",
+      num: 2,
+      text: "Active businesses",
     },
   ];
   return (

@@ -1,15 +1,21 @@
 "use client";
 
 import {
-  FaHtml5,
-  FaCss3,
   FaJs,
   FaReact,
   FaNodeJs,
   FaAngular,
+  FaPython,
+  FaDocker,
 } from "react-icons/fa";
-import { BiLogoTypescript } from "react-icons/bi";
-import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
+import { BiLogoTypescript, BiLogoPostgresql } from "react-icons/bi";
+import {
+  SiTailwindcss,
+  SiNextdotjs,
+  SiSvelte,
+  SiFastapi,
+} from "react-icons/si";
+import { TbBrain } from "react-icons/tb";
 // about data
 type About = {
   title: string;
@@ -22,7 +28,7 @@ type About = {
 
 const about: About = {
   title: "About Me",
-  description: `I am a full-stack developer with a passion for creating beautiful and functional web applications. I have experience working with a variety of technologies, including HTML, CSS, JavaScript, React and Node.js. I am always looking to learn new things and improve my skills, and I am excited to take on new challenges and projects.`,
+  description: `Fullstack developer focused on applied AI and product. I build LangGraph agents, multimodal conversational platforms, e-commerce and SaaS in production. Founder of two active businesses (P&T Store and Enfocalab) with hands-on operational experience in sales, electronic invoicing and automation. Currently pursuing a Master's in Information Technology at UNSM.`,
   info: [
     {
       fieldName: "Name",
@@ -30,11 +36,11 @@ const about: About = {
     },
     {
       fieldName: "Phone",
-      fieldValue: "(+51) 935 264 473",
+      fieldValue: "(+51) 935 064 473",
     },
     {
       fieldName: "Experience",
-      fieldValue: "2+ Years",
+      fieldValue: "3+ Years",
     },
     {
       fieldName: "Nationality",
@@ -73,25 +79,37 @@ type Experience = {
 const experience: Experience = {
   icon: "/assets/resume/badge.svg",
   title: "My experience",
-  description: `I have worked on a variety of projects, both independently and as part of a team. Here are some of the projects I have worked on:`,
+  description: `I work as an AI / Fullstack Engineer building agentic systems and web products, while running my own businesses on the side. Most recent work first:`,
   items: [
     {
-      position: "Full Stack Developer",
-      company: "Universidad Nacional de San Martion",
-      duration: "2023 - 2023",
-      description: `I developed a university social responsibility management system as part of a team, using Next.js for both front-end and back-end development. I implemented server-side logic in Node.js, designed the user interface, and collaborated to ensure full system integration and functionality.`,
+      position: "AI / Fullstack Engineer",
+      company: "Micelio (Remote · Chile)",
+      duration: "May 2026 - Present",
+      description: `Freelance, part-time. Building Karman, a LangGraph + FastAPI agent for marketing (LoopMe). Multimodal integration with Gemini 2.5 (LLM, Vision, Embeddings, Live API) and Grok 4; specialized subgraphs (audience, brand competitor, geo, inventory); RAG with FAISS / pgvector. Customizing an Open WebUI fork (SvelteKit 5 + FastAPI): voice overlay, gamification, branding. Docker deployment with PostgreSQL+pgvector, ClickHouse, MinIO, Redis and Langfuse observability.`,
     },
     {
-      position: "Freelance Full Stack Developer",
-      company: "Freelance",
-      duration: "2023 - Present",
-      description: `I have worked on various projects, including building web applications, maintaining websites, and developing custom client solutions. Notably, I developed a sales and service management system for a plumbing company, building the front-end with Next.js.`,
+      position: "Founder & CEO",
+      company: "P&T Store (Peru)",
+      duration: "2024 - Present",
+      description: `One-product e-commerce running nationwide on COD (cash on delivery). Built the platform end-to-end and automated customer support with Chatwoot. Full logistics operation: suppliers, courier and after-sales.`,
+    },
+    {
+      position: "Founder & CEO",
+      company: "Enfocalab (Mexico)",
+      duration: "2025 - Present",
+      description: `Digital product targeting the Mexican market. Designed the offer, website and acquisition funnel.`,
+    },
+    {
+      position: "Fullstack Developer (Freelance)",
+      company: "Coderline (Remote · Chile)",
+      duration: "Nov 2025 - May 2026",
+      description: `Built a management system for a Chilean meat-products company: inventory, orders, customers and reports. Also implemented their corporate website from scratch, with design and improvement iterations. Stack: React, Node.js and relational databases; REST API integration and data modeling.`,
     },
     {
       position: "Frontend Developer",
-      company: "CV Matcher",
-      duration: " 2025 - Present",
-      description: `I developed responsive interfaces using Angular, Angular Material, TailwindCSS, and TypeScript for an AI-powered CV-matching platform. I consumed APIs and contributed to UI/UX design to improve user experience and increase platform reach. The project was successfully launched to production, supporting early growth and product validation.`,
+      company: "CV Matcher (Remote · Peru)",
+      duration: "Jan 2025 - Oct 2025",
+      description: `Built responsive interfaces with Angular, TailwindCSS and TypeScript for an AI-powered CV-matching platform. Consumed AI APIs and contributed to UI/UX, shipping the MVP to production.`,
     },
   ],
 };
@@ -112,19 +130,31 @@ type Education = {
 const education: Education = {
   icon: "/assets/resume/cap.svg",
   title: "My education",
-  description: `I have a degree in computer science from the Universidad Nacional de San Martion. Here are some of the courses I have taken:`,
+  description: `Bachelor in Systems & Informatics Engineering from UNSM, currently pursuing a Master's in Information Technology at the same university.`,
   items: [
     {
-      degree: "Bachelor of Computer Science",
-      institution: "Universidad Nacional de San Martion",
-      duration: "2018 - 2023",
-      description: `I studied computer science at the Universidad Nacional de San Martion, where I learned about a variety of topics, including programming, algorithms, data structures, and software engineering. I also took courses in web development, database management, and computer networks, among others.`,
+      degree: "M.Sc. in Information Technology",
+      institution: "Universidad Nacional de San Martín (UNSM)",
+      duration: "In progress",
+      description: `Master of Science with a specialization in Information Technology at UNSM Postgraduate School, Tarapoto. Focus on applied technology and research aligned with my own business projects.`,
     },
     {
-      degree: "Web Development",
-      institution: "Online Course Platform",
-      duration: "2023 - present",
-      description: `I have taken several online courses to improve my skills in web development, including courses on HTML, CSS, JavaScript, React and Node.js. I am always looking to learn new things and improve my skills, and I am excited to take on new challenges and projects.`,
+      degree: "Bachelor of Systems & Informatics Engineering",
+      institution: "Universidad Nacional de San Martín (UNSM)",
+      duration: "2018 - 2024",
+      description: `Bachelor's degree granted on September 2nd, 2024. Studies in programming, algorithms, data structures, software engineering, web development, databases and computer networks.`,
+    },
+    {
+      degree: "Certified Junior JavaScript Developer",
+      institution: "Certificates.dev",
+      duration: "2024",
+      description: `Official certification of competence as a Junior JavaScript Developer.`,
+    },
+    {
+      degree: "React & TypeScript (+10 Projects)",
+      institution: "Udemy",
+      duration: "2025 · 57h",
+      description: `Complete React and TypeScript course building 10+ projects.`,
     },
   ],
 };
@@ -141,44 +171,59 @@ type Skill = {
 
 const skills: Skill = {
   title: "My skills",
-  description: `I have experience working with a variety of technologies, including:`,
+  description: `Languages, frameworks and platforms I use day-to-day:`,
   skillList: [
     {
-      icon: <FaHtml5 />,
-      name: "html 5",
-    },
-    {
-      icon: <FaCss3 />,
-      name: "css 3",
+      icon: <BiLogoTypescript />,
+      name: "typescript",
     },
     {
       icon: <FaJs />,
       name: "javascript",
     },
     {
-      icon: <BiLogoTypescript />,
-      name: "typescript",
+      icon: <FaPython />,
+      name: "python",
     },
     {
       icon: <FaReact />,
       name: "react",
     },
     {
+      icon: <SiNextdotjs />,
+      name: "next.js",
+    },
+    {
       icon: <FaAngular />,
       name: "angular",
     },
     {
-      icon: <SiNextdotjs />,
-      name: "next.js",
+      icon: <SiSvelte />,
+      name: "svelte",
     },
     {
       icon: <FaNodeJs />,
       name: "node.js",
     },
-
+    {
+      icon: <SiFastapi />,
+      name: "fastapi",
+    },
+    {
+      icon: <TbBrain />,
+      name: "langgraph",
+    },
+    {
+      icon: <BiLogoPostgresql />,
+      name: "postgresql",
+    },
     {
       icon: <SiTailwindcss />,
       name: "tailwind css",
+    },
+    {
+      icon: <FaDocker />,
+      name: "docker",
     },
   ],
 };
