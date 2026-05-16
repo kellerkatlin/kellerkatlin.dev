@@ -91,13 +91,13 @@ const experience: Experience = {
       position: "Founder & CEO",
       company: "P&T Store (Peru)",
       duration: "2024 - Present",
-      description: `One-product e-commerce running nationwide on COD (cash on delivery). Built the platform end-to-end and automated customer support with Chatwoot. Full logistics operation: suppliers, courier and after-sales.`,
+      description: `One-product e-commerce running nationwide on COD (cash on delivery). Built the platform end-to-end and automated customer support with Chatwoot. Manage Meta Ads campaigns (Facebook & Instagram): creatives, audience targeting and CPA/ROAS optimization. Full logistics operation: suppliers, courier and after-sales.`,
     },
     {
       position: "Founder & CEO",
       company: "Enfocalab (Mexico)",
       duration: "2025 - Present",
-      description: `Digital product targeting the Mexican market. Designed the offer, website and acquisition funnel.`,
+      description: `Digital product targeting the Mexican market. Designed the offer, website and acquisition funnel. Manage Meta Ads campaigns for lead generation and offer validation in the Mexican market.`,
     },
     {
       position: "Fullstack Developer (Freelance)",
