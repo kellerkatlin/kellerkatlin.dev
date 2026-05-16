@@ -85,19 +85,19 @@ const experience: Experience = {
       position: "AI / Fullstack Engineer",
       company: "Micelio (Remote · Chile)",
       duration: "May 2026 - Present",
-      description: `Freelance, part-time. Building Karman, a LangGraph + FastAPI agent for marketing (LoopMe). Multimodal integration with Gemini 2.5 (LLM, Vision, Embeddings, Live API) and Grok 4; specialized subgraphs (audience, brand competitor, geo, inventory); RAG with FAISS / pgvector. Customizing an Open WebUI fork (SvelteKit 5 + FastAPI): voice overlay, gamification, branding. Docker deployment with PostgreSQL+pgvector, ClickHouse, MinIO, Redis and Langfuse observability.`,
+      description: `Freelance, part-time. Building Karman, a LangGraph + FastAPI marketing AI agent for LoopMe — multimodal Gemini & Grok integration, RAG and real-time voice. Customizing the Open WebUI fork (SvelteKit 5) that serves the conversational UI. Dockerized deployment with Langfuse observability.`,
     },
     {
       position: "Founder & CEO",
       company: "P&T Store (Peru)",
       duration: "2024 - Present",
-      description: `One-product e-commerce running nationwide on COD (cash on delivery). Built the platform end-to-end and automated customer support with Chatwoot. Manage Meta Ads campaigns (Facebook & Instagram): creatives, audience targeting and CPA/ROAS optimization. Full logistics operation: suppliers, courier and after-sales.`,
+      description: `One-product e-commerce running nationwide on COD (cash on delivery). Built the platform end-to-end. AI-assisted after-sales automation on top of Chatwoot (CRM). AI-augmented Meta Ads optimization: creative generation and testing, audience targeting and CPA/ROAS analysis accelerated with AI tooling. Full logistics operation: suppliers, courier and after-sales.`,
     },
     {
       position: "Founder & CEO",
       company: "Enfocalab (Mexico)",
       duration: "2025 - Present",
-      description: `Digital product targeting the Mexican market. Designed the offer, website and acquisition funnel. Manage Meta Ads campaigns for lead generation and offer validation in the Mexican market.`,
+      description: `Digital product targeting the Mexican market. Designed the offer, website and acquisition funnel. AI-augmented Meta Ads optimization for lead generation and offer validation.`,
     },
     {
       position: "Fullstack Developer (Freelance)",
