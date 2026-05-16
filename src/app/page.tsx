@@ -35,7 +35,7 @@ export default function Home() {
                                     aria-label="Download CV"
                                     className="uppercase flex items-center gap-2"
                                 >
-                                    <span>Dowload CV</span>
+                                    <span>Download CV</span>
                                     <Download size={20} />
                                 </Button>
                             </a>
