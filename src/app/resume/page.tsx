@@ -85,7 +85,7 @@ const experience: Experience = {
       position: "AI / Fullstack Engineer",
       company: "Micelio (Remote · Chile)",
       duration: "May 2026 - Present",
-      description: `Freelance, part-time. Building Karman, a LangGraph + FastAPI marketing AI agent for LoopMe — multimodal Gemini & Grok integration, RAG and real-time voice. Customizing the Open WebUI fork (SvelteKit 5) that serves the conversational UI. Dockerized deployment with Langfuse observability.`,
+      description: `Freelance, part-time. Part of the engineering team building Karman, a LangGraph + FastAPI marketing AI agent for LoopMe. Contributing to multimodal Gemini & Grok integration, RAG, real-time voice, and the Open WebUI fork (SvelteKit 5) that serves the conversational UI. Dockerized deployment with Langfuse observability.`,
     },
     {
       position: "Founder & CEO",
